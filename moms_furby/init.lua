@@ -18,10 +18,10 @@ minetest.register_node('moms_furby:furby', {
 })
 
 minetest.register_node('moms_furby:furby_blue', {
-	description = 'Moms Furby Blue',
+	description = 'Furby Boom - Blue Wave',
 	drawtype = 'mesh',
 	mesh = 'moms_furby_blue.obj',
-	tiles = {'moms_furby_colors.png', 'moms_furby_body.png'},
+	tiles = {'moms_furby_colors.png', 'moms_furby_body.png', 'moms_furby_eyes.png'},
 	inventory_image = 'moms_furby_colors.png',
 	groups = {oddly_breakable_by_hand=2},
 	walkable = false,
