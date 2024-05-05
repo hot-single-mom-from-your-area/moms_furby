@@ -34,5 +34,14 @@ minetest.register_node('moms_furby:furby_blue', {
 	collision_box = {
 		type = 'fixed',
 		fixed = {-.5, -.5, -.5, .5, .5, .5},
-		},
+		}
+})
+
+minetest.register_craft({
+	output = "moms_furby:furby_blue",
+	recipe = {
+		{ "wool:cyan", "wool:blue", "wool:cyan" },
+		{ "wool:blue", "default:mese", "wool:blue" },
+		{ "wool:cyan", "wool:blue", "wool:cyan" }
+	}
 })
