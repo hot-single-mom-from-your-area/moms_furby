@@ -1,22 +1,3 @@
-minetest.register_node('moms_furby:furby', {
-	description = 'Moms Furby',
-	drawtype = 'mesh',
-	mesh = 'moms_furby.obj',
-	tiles = {'moms_furby.png'},
-	inventory_image = 'moms_furby.png',
-	groups = {oddly_breakable_by_hand=2},
-	paramtype = 'light',
-	paramtype2 = 'facedir',
-	selection_box = {
-		type = 'fixed',
-		fixed = {-.5, -.5, -.5, .5, .5, .5},
-		},
-	collision_box = {
-		type = 'fixed',
-		fixed = {-.5, -.5, -.5, .5, .5, .5},
-		},
-})
-
 minetest.register_node('moms_furby:furby_blue', {
 	description = 'Furby Boom - Blue Wave',
 	drawtype = 'mesh',
@@ -49,8 +30,8 @@ minetest.register_node('moms_furby:furby_connect_blue', {
 	description = 'Furby Connect - Blue',
 	drawtype = 'mesh',
 	mesh = 'moms_furby_connect.obj',
-	tiles = {'moms_furby_connect_colors.png', 'moms_furby_connect_body.png^[colorizehsl:200:70:-30', 'moms_furby_connect_eyes.png'},
-	inventory_image = 'moms_furby_connect_inv.png^[colorizehsl:200:70:-30^moms_furby_connect_inv_mouth.png',
+	tiles = {'moms_furby_connect_colors_1.png', 'moms_furby_connect_body_1.png', 'moms_furby_connect_eyes_1.png'},
+	inventory_image = 'moms_furby_connect_inv_1.png',
 	groups = {oddly_breakable_by_hand=2},
 	paramtype = 'light',
 	paramtype2 = 'facedir'
@@ -68,8 +49,8 @@ minetest.register_node('moms_furby:furby_connect_teal', {
 	description = 'Furby Connect - Teal',
 	drawtype = 'mesh',
 	mesh = 'moms_furby_connect.obj',
-	tiles = {'moms_furby_connect_colors.png^[verticalframe:16:1', 'moms_furby_connect_body.png^[colorizehsl:170:70:-30', 'moms_furby_connect_eyes.png^[fill:32x4:0,0:teal'},
-	inventory_image = 'moms_furby_connect_inv.png^[colorizehsl:170:70:-30^moms_furby_connect_inv_mouth.png',
+	tiles = {'moms_furby_connect_colors_2.png', 'moms_furby_connect_body_2.png', 'moms_furby_connect_eyes_2.png'},
+	inventory_image = 'moms_furby_connect_inv_2.png',
 	groups = {oddly_breakable_by_hand=2},
 	paramtype = 'light',
 	paramtype2 = 'facedir'
@@ -87,8 +68,8 @@ minetest.register_node('moms_furby:furby_connect_pink', {
 	description = 'Furby Connect - Pink',
 	drawtype = 'mesh',
 	mesh = 'moms_furby_connect.obj',
-	tiles = {'moms_furby_connect_colors.png^[verticalframe:16:2', 'moms_furby_connect_body.png^[colorizehsl:360:100:-10', 'moms_furby_connect_eyes.png^[fill:32x4:0,0:pink'},
-	inventory_image = 'moms_furby_connect_inv.png^[colorizehsl:360:100:-10^moms_furby_connect_inv_mouth.png',
+	tiles = {'moms_furby_connect_colors_3.png', 'moms_furby_connect_body_3.png', 'moms_furby_connect_eyes_3.png'},
+	inventory_image = 'moms_furby_connect_inv_3.png',
 	groups = {oddly_breakable_by_hand=2},
 	paramtype = 'light',
 	paramtype2 = 'facedir'
@@ -106,8 +87,8 @@ minetest.register_node('moms_furby:furby_connect_purple', {
 	description = 'Furby Connect - Purple',
 	drawtype = 'mesh',
 	mesh = 'moms_furby_connect.obj',
-	tiles = {'moms_furby_connect_colors.png^[verticalframe:16:3', 'moms_furby_connect_body.png^[colorizehsl:320:70:-30', 'moms_furby_connect_eyes.png^[fill:32x4:0,0:purple'},
-	inventory_image = 'moms_furby_connect_inv.png^[colorizehsl:320:70:-30^moms_furby_connect_inv_mouth.png',
+	tiles = {'moms_furby_connect_colors_4.png', 'moms_furby_connect_body_4.png', 'moms_furby_connect_eyes_4.png'},
+	inventory_image = 'moms_furby_connect_inv_4.png',
 	groups = {oddly_breakable_by_hand=2},
 	paramtype = 'light',
 	paramtype2 = 'facedir'
@@ -125,8 +106,8 @@ minetest.register_node('moms_furby:furby_connect_coral', {
 	description = 'Furby Connect - Coral',
 	drawtype = 'mesh',
 	mesh = 'moms_furby_connect.obj',
-	tiles = {'moms_furby_connect_colors.png^[verticalframe:16:4', 'moms_furby_connect_body.png^[colorizehsl:20:80:-30', 'moms_furby_connect_eyes.png^[fill:32x4:0,0:coral'},
-	inventory_image = 'moms_furby_connect_inv.png^[colorizehsl:20:80:-30^moms_furby_connect_inv_mouth.png',
+	tiles = {'moms_furby_connect_colors_5.png', 'moms_furby_connect_body_5.png', 'moms_furby_connect_eyes_5.png'},
+	inventory_image = 'moms_furby_connect_inv_5.png',
 	groups = {oddly_breakable_by_hand=2},
 	paramtype = 'light',
 	paramtype2 = 'facedir'
